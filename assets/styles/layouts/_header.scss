@@ -1,0 +1,255 @@
+header {
+    background: url(/assets/img/bg-slider-06.jpg) center/cover;
+    padding: 0 50px;
+    color: $white1;
+
+    nav {
+        height: 12vh;
+        display: grid;
+        grid-template-columns: 10% 82% 8%;
+        align-items: center;
+        max-width: 1100px;
+        margin: 0 auto;
+
+        @media screen and (max-width: 680px) {
+            grid-template-columns: 50% 10% 40%;
+        }
+
+        .logo-resto {
+            font-family: $font3;
+            font-weight: 100;
+            font-size: 2rem;
+            text-align: left;
+        }
+        ul {
+            @include alignChildren(space-around);
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            padding: 0 30px;
+            // font-weight: 800;
+
+            @media screen and (max-width: 680px) {
+                visibility: hidden;
+            }
+
+            li {
+                cursor: pointer;
+            }
+        }
+
+        .nav-icons {
+            @include alignChildren(space-around);
+            font-size: 0.8rem;
+
+            i {
+                transition: 0.2s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+    }
+    .header-text {
+        @include childCenter;
+        height: 88vh;
+        
+        div {
+            margin-top: -10%;
+
+            h2 {
+                font-family: $font3;
+                font-size: 4rem;
+                font-weight: 100;
+                color: $orange1;
+
+                @media screen and (max-width: 680px) {
+                    font-size: 3rem;
+                    margin-top: -100px;
+                }
+            }
+            h1 {
+                font-size: 4.7rem;
+                letter-spacing: 10px;
+                font-weight: 700;
+                margin-top: -35px;
+                font-family: $font1;
+                
+                @media screen and (max-width: 680px) {
+                    font-size: 2.1rem;
+                    letter-spacing: 5px;
+                    margin-top: -20px;
+                }
+            }
+            img {
+                height: 27px;
+                margin: 32px 0;
+            }
+            h6 {
+                font-size: 1.2rem;
+                letter-spacing: 6px;
+                font-weight: 100;
+                font-weight: 700;
+
+                @media screen and (max-width: 680px) {
+                    font-size: 1rem;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// header {
+//     background: url(/assets/img/bg-slider-06.jpg) center/cover;
+//     min-height: 100vh;
+//     color: $white1;
+
+//     nav {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         padding: 30px;
+//         width: 70%;
+//         margin: 0 auto;
+//         ul {
+//             display: flex;
+//             justify-content: space-around;
+
+//             li {
+//                 justify-content: space-between;
+//                 margin: 0 30px;
+//             }
+//         }
+//         .logo-resto {
+//             font-family: $font3;
+//             font-size: 3rem;
+//             font-weight: 800;
+//         }
+//         .pages {
+//             text-transform: uppercase;
+//             font-family: $font2;
+//         }
+        
+//     }
+//     .title {
+//        text-align: center;
+//        margin:150px;
+
+//        span {
+//         font-family: $font3;
+//         font-size: 3.5rem;
+//         line-height: 0;
+//         color: $orange1;
+//        }
+//        h1 {
+//         font-family: $font1;
+//         font-size: 4rem;
+//         letter-spacing: 9px;
+//        }
+//        i {
+//         font-size: 1.3rem;
+//         padding: 40px 0;
+//        }
+//        p {
+//         font-family: $font2;
+//         letter-spacing: 8px;
+//         font-weight: 700;
+//         padding: 15px 0;
+//        }
+//     }
+// }
